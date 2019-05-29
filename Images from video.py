@@ -1,6 +1,6 @@
 import cv2
 print(cv2.__version__)
-videocap = cv2.VideoCapture('12.mp4')
+videocap = cv2.VideoCapture('file name')  # set to video file name
 success, image = videocap.read()
 count = 0
 success = True
